@@ -14,6 +14,7 @@ public class mowerController : MonoBehaviour {
     void Start()
     {
         rb = GetComponent<Rigidbody>();
+         
         count = 0;
        SetcountText();
         winText.text = "";
@@ -33,7 +34,8 @@ public class mowerController : MonoBehaviour {
         float moveVert = Input.GetAxis("Vertical");
         //This successfull moves cube! (next q is why no vector3 or rigibody and will the lack of a rigidbody have collision issues?
         //transform.Translate(speed*moveHoriz * Time.deltaTime, 0f, speed*moveVert * Time.deltaTime);
-
+        rb.AddForce(Physics.gravity);
+        rb.velocity = transform.forward;
       
 
        //Vector3 movement = new Vector3(moveHoriz, 0.0f, moveVert);

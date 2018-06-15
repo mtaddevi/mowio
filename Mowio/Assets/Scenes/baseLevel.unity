@@ -960,7 +960,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 282840810}
   m_LocalRotation: {x: 0.38268343, y: 0, z: 0, w: 0.92387956}
-  m_LocalPosition: {x: 2.3, y: 12, z: -21.2}
+  m_LocalPosition: {x: 2.94, y: 12, z: -46.44}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2696,7 +2696,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4079383684336444, guid: c45d6476f7390f141912f2ffe5039494, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 0.2
+      value: -35.04
       objectReference: {fileID: 0}
     - target: {fileID: 4079383684336444, guid: c45d6476f7390f141912f2ffe5039494, type: 2}
       propertyPath: m_LocalRotation.x
@@ -2732,6 +2732,21 @@ Prefab:
       propertyPath: winText
       value: 
       objectReference: {fileID: 1288379628}
+    - target: {fileID: 54746073904015932, guid: c45d6476f7390f141912f2ffe5039494,
+        type: 2}
+      propertyPath: m_IsKinematic
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 54746073904015932, guid: c45d6476f7390f141912f2ffe5039494,
+        type: 2}
+      propertyPath: m_UseGravity
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114722284846251470, guid: c45d6476f7390f141912f2ffe5039494,
+        type: 2}
+      propertyPath: speed
+      value: 140
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c45d6476f7390f141912f2ffe5039494, type: 2}
   m_IsPrefabParent: 0
