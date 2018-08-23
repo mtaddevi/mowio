@@ -1,2 +1,2 @@
 # mowio
-A repository for a unity-ios game project based around mowing the lawn
+A repository for a unity-ios game project based around mowing the lawn written in c#
